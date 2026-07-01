@@ -1,3 +1,4 @@
+
 Bright Future Academy – Educational Website
 This is a beginner-friendly sample frontend website created for an educational project assignment.
 Website Type
@@ -35,3 +36,4 @@ Login to Netlify.
 Click "Add new site" → "Import an existing project".
 Connect GitHub repository.
 Deploy the website.
+
