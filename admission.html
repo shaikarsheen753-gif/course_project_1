@@ -1,107 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Admission | Bright Future Academy</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta name="description" content="Apply for admission at Bright Future Academy and start your journey towards a successful future.">
+<title>Bright Future Academy | Admission</title>
 
-  <meta name="keywords" content="Bright Future Academy, admission, apply, student registration, education">
+<meta name="description" content="Apply for admission at Bright Future Academy and begin your educational journey with us.">
 
-  <link rel="stylesheet" href="style.css">
+<meta name="keywords" content="Bright Future Academy Admission, Student Registration, Apply Now, Education">
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="favicon.ico">
 </head>
+
 <body>
 
-<header class="site-header">
-  <div class="container header-inner">
+<header class="header">
+    <div class="container">
 
-    <a class="logo" href="index.html">Bright Future Academy</a>
+        <div class="logo">
+            <img src="images/logo.png" alt="Bright Future Academy Logo">
+            <h1>Bright Future Academy</h1>
+        </div>
 
-    <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation">☰</button>
+        <button id="menuBtn" class="menu-btn">☰</button>
 
-    <nav class="nav-links" id="navLinks">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="courses.html">Courses</a>
-      <a href="programs.html">Programs</a>
-      <a href="admission.html">Admission</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+        <nav>
+            <ul id="navLinks" class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="admission.html" class="active">Admission</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
 
-  </div>
+    </div>
 </header>
 
-<main>
-
-<section class="container section">
-
-  <h1>Admission Open 2026</h1>
-
-  <img src="images/admission.jpg" alt="Bright Future Academy Admission">
-
-  <p>
-    Admissions are now open for various courses and programs at
-    Bright Future Academy.
-  </p>
-
-  <p>
-    We provide quality education, experienced faculty and practical
-    learning opportunities to help students achieve their goals.
-  </p>
-
-  <h2>Admission Process</h2>
-
-  <ol>
-    <li>Fill out the admission form.</li>
-    <li>Submit the required documents.</li>
-    <li>Attend the counselling session.</li>
-    <li>Complete the fee payment process.</li>
-    <li>Start your learning journey with us.</li>
-  </ol>
-
-  <a class="btn" href="contact.html">Apply Now</a>
-
+<section class="page-banner">
+    <div class="container">
+        <h1>Admission Open 2026</h1>
+        <p>Join Bright Future Academy and build a successful future.</p>
+    </div>
 </section>
 
-</main>
+<section class="admission-section">
+    <div class="container">
 
-<footer class="site-footer">
-  <div class="container footer-grid">
+        <h2>Admission Information</h2>
 
-    <div>
-      <h3>Bright Future Academy</h3>
-      <p>
-        A student sample frontend website created using HTML, CSS and JavaScript.
-      </p>
+        <p>
+            Admissions are open for various undergraduate, diploma and
+            certificate programs. Interested students can fill out the
+            registration form below.
+        </p>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Eligibility</h3>
+                <p>Students must have completed the previous academic qualification required for the selected course.</p>
+            </div>
+
+            <div class="card">
+                <h3>Documents Required</h3>
+                <p>Academic certificates, passport-size photographs and identity proof.</p>
+            </div>
+
+            <div class="card">
+                <h3>Admission Process</h3>
+                <p>Submit the application form, complete verification and confirm admission.</p>
+            </div>
+
+        </div>
+
+        <h2>Student Registration Form</h2>
+
+        <form id="admissionForm" class="contact-form">
+
+            <input type="text" id="studentName" placeholder="Full Name" required>
+
+            <input type="email" id="studentEmail" placeholder="Email Address" required>
+
+            <input type="tel" id="studentPhone" placeholder="Phone Number" required>
+
+            <input type="text" id="studentCourse" placeholder="Course Interested In" required>
+
+            <textarea id="studentMessage" placeholder="Additional Information"></textarea>
+
+            <button type="submit" class="btn">Submit Application</button>
+
+        </form>
+
     </div>
+</section>
 
-    <div>
-      <h3>Quick Links</h3>
-      <p>
-        <a href="courses.html">Courses</a> |
-        <a href="programs.html">Programs</a> |
-        <a href="contact.html">Contact</a>
-      </p>
+<footer class="footer">
+    <div class="container">
+        <p>© 2026 Bright Future Academy. All Rights Reserved.</p>
     </div>
-
-    <div>
-      <h3>Contact</h3>
-      <p>
-        Email: info@brightfutureacademy.com<br>
-        Phone: +91-9876543210
-      </p>
-    </div>
-
-  </div>
-
-  <p class="copyright">
-    © 2026 Bright Future Academy. All Rights Reserved.
-  </p>
 </footer>
 
-<script src="script.js"></script>
+<script src="js/script.js"></script>
 
 </body>
 </html>
